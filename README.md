@@ -23,11 +23,10 @@ It allows users to **register**, **log in**, and **manage tasks** by dragging an
 ✅ JWT-based Authentication  
 ✅ Secure Password Hashing with Bcrypt  
 ✅ Create, Edit, and Delete Tasks  
-✅ Tasks organized in 3 columns  
-✅ Drag-and-Drop support (React DnD / Pangea DnD)  
+✅ Tasks organized 
+✅ Drag-and-Drop support
 ✅ Responsive UI with Tailwind CSS  
 ✅ RESTful API using Express.js  
-✅ MongoDB with Mongoose for data storage  
 
 ---
 
