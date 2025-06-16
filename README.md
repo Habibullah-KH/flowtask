@@ -48,15 +48,17 @@ It allows users to **register**, **log in**, and **manage tasks** by dragging an
 ---
 ## ⚙️ Getting Started
 
-### 1. Clone the Repository
-
+#### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/taskflow-kanban.git
+git clone https://github.com/Habibullah-KH/flowtask.git
 ```
+#### 2. Change path
+
 ```bash
 cd flowtask
-
 ```
+
+#### 3. Live project on local
 ```bash
 npm run dev
 # or
