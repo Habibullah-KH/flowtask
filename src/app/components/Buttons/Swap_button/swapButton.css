@@ -1,0 +1,41 @@
+/* control swap button container */
+.swap-button {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+/* Customize each icon*/
+.swap-button .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease, transform 0.4s ease;
+}
+
+/* Show menu icon by default */
+.swap-button .menu-icon {
+opacity: 1;
+transform: rotate(0deg);
+}
+
+/* Hide reorder icon by default */
+.swap-button .reorder-icon {
+opacity: 0;
+transform: rotate(-90deg);
+}
+
+/* When active, swap visibility and rotate */
+.swap-button.active .menu-icon {
+opacity: 0;
+transform: rotate(90deg);
+}
+
+.swap-button.active .reorder-icon {
+opacity: 1;
+transform: rotate(0deg);
+}
